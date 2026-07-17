@@ -1,0 +1,13 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# AWS
+*.pem
+*.key
+
+# Secrets
+.env
