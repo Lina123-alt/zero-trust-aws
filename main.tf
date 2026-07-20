@@ -226,3 +226,102 @@ resource "aws_config_config_rule" "restricted_ssh" {
 }
 
 
+# ============================================
+# RDS - Base de donnees securisee
+# ============================================
+
+resource "aws_db_subnet_group" "main" {
+  name       = "${var.project_name}-db-subnet-group"
+  subnet_ids = [aws_subnet.public.id, aws_subnet.private.id]
+
+  tags = {
+    Name = "${var.project_name}-db-subnet-group"
+  }
+}
+
+resource "aws_db_instance" "main" {
+  identifier             = "${var.project_name}-db"
+  engine                 = "postgres"
+  engine_version         = "15"
+  instance_class         = "db.t3.micro"
+  allocated_storage      = 20
+  storage_type           = "gp2"
+  db_name                = "zerotrustdb"
+  username               = "dbadmin"
+  password               = "SuperSecretPassword123!"
+  db_subnet_group_name   = aws_db_subnet_group.main.name
+  vpc_security_group_ids = [aws_security_group.private.id]
+  publicly_accessible    = false
+  skip_final_snapshot    = true
+
+  tags = {
+    Name = "${var.project_name}-db"
+  }
+}
+# ============================================
+# S3 - Stockage chiffre pour rapports/logs
+# ============================================
+
+resource "aws_s3_bucket" "reports" {
+  bucket = "${var.project_name}-reports-${data.aws_caller_identity.current.account_id}"
+
+  tags = {
+    Name = "${var.project_name}-reports"
+  }
+}
+
+data "aws_caller_identity" "current" {}
+
+resource "aws_s3_bucket_server_side_encryption_configuration" "reports" {
+  bucket = aws_s3_bucket.reports.id
+
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm = "AES256"
+    }
+  }
+}
+
+resource "aws_s3_bucket_public_access_block" "reports" {
+  bucket = aws_s3_bucket.reports.id
+
+  block_public_acls       = true
+  block_public_policy     = true
+  ignore_public_acls      = true
+  restrict_public_buckets = true
+}
+# ============================================
+# AUTO SCALING - Groupe avec 1 serveur (gratuit)
+# ============================================
+
+resource "aws_launch_template" "app" {
+  name_prefix   = "${var.project_name}-lt-"
+  image_id      = data.aws_ami.amazon_linux.id
+  instance_type = "t3.micro"
+  key_name      = aws_key_pair.deployer.key_name
+
+  vpc_security_group_ids = [aws_security_group.public.id]
+
+  tags = {
+    Name = "${var.project_name}-launch-template"
+  }
+}
+
+resource "aws_autoscaling_group" "app" {
+  name                = "${var.project_name}-asg"
+  vpc_zone_identifier = [aws_subnet.public.id]
+  min_size            = 1
+  max_size            = 2
+  desired_capacity    = 1
+
+  launch_template {
+    id      = aws_launch_template.app.id
+    version = "$Latest"
+  }
+
+  tag {
+    key                 = "Name"
+    value               = "${var.project_name}-asg-instance"
+    propagate_at_launch = true
+  }
+}
