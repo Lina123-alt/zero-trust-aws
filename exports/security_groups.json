@@ -1,0 +1,227 @@
+{
+  "SecurityGroups": [
+    {
+      "GroupId": "sg-074d2c1e9d0c20bf8",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "ZeroTrust-AWS"
+        },
+        {
+          "Key": "Name",
+          "Value": "zero-trust-lab-public-sg"
+        },
+        {
+          "Key": "Environment",
+          "Value": "lab"
+        },
+        {
+          "Key": "Owner",
+          "Value": "terraform-admin"
+        }
+      ],
+      "VpcId": "vpc-06eb14f69222326e7",
+      "SecurityGroupArn": "arn:aws:ec2:eu-north-1:712693169011:security-group/sg-074d2c1e9d0c20bf8",
+      "OwnerId": "712693169011",
+      "GroupName": "zero-trust-lab-public-sg",
+      "Description": "Security Group for public server (Bastion)",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 80,
+          "ToPort": 80,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "Description": "HTTP from Internet",
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        },
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 22,
+          "ToPort": 22,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "Description": "SSH from Internet",
+              "CidrIp": "10.0.0.0/8"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-02648b915276e5861",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "VpcId": "vpc-06eb14f69222326e7",
+      "SecurityGroupArn": "arn:aws:ec2:eu-north-1:712693169011:security-group/sg-02648b915276e5861",
+      "OwnerId": "712693169011",
+      "GroupName": "default",
+      "Description": "default VPC security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [
+            {
+              "UserId": "712693169011",
+              "GroupId": "sg-02648b915276e5861"
+            }
+          ],
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-002767c7b3448d37b",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Owner",
+          "Value": "terraform-admin"
+        },
+        {
+          "Key": "Environment",
+          "Value": "lab"
+        },
+        {
+          "Key": "Name",
+          "Value": "zero-trust-lab-private-sg"
+        },
+        {
+          "Key": "Project",
+          "Value": "ZeroTrust-AWS"
+        }
+      ],
+      "VpcId": "vpc-06eb14f69222326e7",
+      "SecurityGroupArn": "arn:aws:ec2:eu-north-1:712693169011:security-group/sg-002767c7b3448d37b",
+      "OwnerId": "712693169011",
+      "GroupName": "zero-trust-lab-private-sg",
+      "Description": "Security Group for private server (Application)",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 80,
+          "ToPort": 80,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "Description": "HTTP from public subnet",
+              "CidrIp": "10.0.1.0/24"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        },
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 22,
+          "ToPort": 22,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "Description": "SSH from public subnet",
+              "CidrIp": "10.0.1.0/24"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-0b0dc4f2d6b41eef0",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "VpcId": "vpc-06dfdf54b8e62d3f7",
+      "SecurityGroupArn": "arn:aws:ec2:eu-north-1:712693169011:security-group/sg-0b0dc4f2d6b41eef0",
+      "OwnerId": "712693169011",
+      "GroupName": "default",
+      "Description": "default VPC security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [
+            {
+              "UserId": "712693169011",
+              "GroupId": "sg-0b0dc4f2d6b41eef0"
+            }
+          ],
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "2c46f4f8-c5fd-47cb-91de-fa0fbdda5707",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "2c46f4f8-c5fd-47cb-91de-fa0fbdda5707",
+      "cache-control": "no-cache, no-store",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "vary": "accept-encoding",
+      "content-type": "text/xml;charset=UTF-8",
+      "content-length": "4235",
+      "date": "Sat, 18 Jul 2026 17:09:28 GMT",
+      "server": "AmazonEC2"
+    },
+    "RetryAttempts": 0
+  }
+}

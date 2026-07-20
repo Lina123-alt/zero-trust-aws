@@ -1,0 +1,36 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "SWGDWFQ1B4YBDNFN",
+    "HostId": "bk4dkH5/oS8HGFAeZs+XbP2aZL/wi/xFea4RymQxDfj3hptb4UnYXRNCTfeOwhNNLoIBbIRO/ceVtamB1248bXAD3B6q7mJC",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amz-id-2": "bk4dkH5/oS8HGFAeZs+XbP2aZL/wi/xFea4RymQxDfj3hptb4UnYXRNCTfeOwhNNLoIBbIRO/ceVtamB1248bXAD3B6q7mJC",
+      "x-amz-request-id": "SWGDWFQ1B4YBDNFN",
+      "date": "Sat, 18 Jul 2026 17:09:29 GMT",
+      "content-type": "application/xml",
+      "transfer-encoding": "chunked",
+      "server": "AmazonS3"
+    },
+    "RetryAttempts": 0
+  },
+  "Buckets": [
+    {
+      "Name": "aws-cloudtrail-logs-712693169011-68eabe8a",
+      "CreationDate": "2026-07-15 16:17:34+00:00",
+      "BucketArn": "arn:aws:s3:::aws-cloudtrail-logs-712693169011-68eabe8a"
+    },
+    {
+      "Name": "config-bucket-712693169011",
+      "CreationDate": "2026-07-14 20:40:43+00:00",
+      "BucketArn": "arn:aws:s3:::config-bucket-712693169011"
+    },
+    {
+      "Name": "zero-trust-lab-reports-712693169011",
+      "CreationDate": "2026-07-18 16:49:33+00:00",
+      "BucketArn": "arn:aws:s3:::zero-trust-lab-reports-712693169011"
+    }
+  ],
+  "Owner": {
+    "ID": "6c0545d3f9d88a12616bf6a283e2527b81c86a97015de74eabc0af85474852a4"
+  }
+}

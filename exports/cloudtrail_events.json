@@ -1,0 +1,778 @@
+{
+  "Events": [
+    {
+      "EventId": "535d5c95-9da7-4f4b-a508-797d3736ef88",
+      "EventName": "DescribeInstanceStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ5VN57SRX",
+      "EventTime": "2026-07-18 17:08:02+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5VN57SRX\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:56:01Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T17:08:02Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeInstanceStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\"}]},\"filterSet\":{},\"includeAllInstances\":true,\"includeManagedResources\":true},\"responseElements\":null,\"requestID\":\"6b7dfc52-3edc-4209-a139-cb9f6a5e2abe\",\"eventID\":\"535d5c95-9da7-4f4b-a508-797d3736ef88\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "d41660e5-0ad1-4b9f-8b06-937bdfd44459",
+      "EventName": "DescribeInstanceStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ5VN57SRX",
+      "EventTime": "2026-07-18 17:06:02+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5VN57SRX\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:56:01Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T17:06:02Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeInstanceStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\"}]},\"filterSet\":{},\"includeAllInstances\":true,\"includeManagedResources\":true},\"responseElements\":null,\"requestID\":\"c5c3a625-eec2-4624-b905-b70bd0e012cd\",\"eventID\":\"d41660e5-0ad1-4b9f-8b06-937bdfd44459\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "2f0d949e-3ddf-40f6-8d7e-0eeacff82a2d",
+      "EventName": "DescribeInstanceStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ5VN57SRX",
+      "EventTime": "2026-07-18 17:04:01+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5VN57SRX\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:56:01Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T17:04:01Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeInstanceStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\"}]},\"filterSet\":{},\"includeAllInstances\":true,\"includeManagedResources\":true},\"responseElements\":null,\"requestID\":\"6e9ed6fc-b922-4332-b1af-35723fa4b45c\",\"eventID\":\"2f0d949e-3ddf-40f6-8d7e-0eeacff82a2d\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "5b25bdc1-d016-4ee5-a23f-92ec78412086",
+      "EventName": "DescribeInstanceStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ5VN57SRX",
+      "EventTime": "2026-07-18 17:02:01+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5VN57SRX\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:56:01Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T17:02:01Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeInstanceStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\"}]},\"filterSet\":{},\"includeAllInstances\":true,\"includeManagedResources\":true},\"responseElements\":null,\"requestID\":\"9c529e29-6b9f-4c35-b452-54c9ead45e9d\",\"eventID\":\"5b25bdc1-d016-4ee5-a23f-92ec78412086\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "95758a4b-835e-3ea1-b480-9a29296c3ed5",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 17:01:43+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZXHHYSBSB"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZWRLD7MLWJ:resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-07-18T17:01:43Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"roleSessionName\":\"resource-explorer-2\"},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZXHHYSBSB\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRjBEAiBKEs/RCHVk8rvfaTU01HQJnh5Dh8E/x2OLautVi6JGoQIgGV0mnqzdqnYCK5tjLJUVS1YoCrWVYZFL+b/3EODyO9wq8gIIehAAGgw3MTI2OTMxNjkwMTEiDGU6++SW+QDDACgWdSrPArDzrzGuls0PQSQUo5H6F1f5T+pzBFrZnIpBE3fZQCSJkWUfWKJqcAVhqNQIvaKthKdipD/AV/NxdZTQlwfgHhNtnLWEF/Spp+8sYoRf2J2P2A1uQdA59iWU1NLVBVFfIDBNJwAabWpUZMqYWtUpbjJrGmuX7CuIkhlJgCUKpl2YQ7x8eAuOcqZWYNEojgfiuAhI+1HVmd/Yq4TBEuhJ7zSctkyLvxEB/HpVnB+pRuGJeGOl+NoMgfTaIzoxlSURucuKzY1TOvRYUCo5veV4G4vK9R9BhFshfM3wx+sdrLALyVvz0cDWWeLERQp+gcVSHUZ0SmnbF7eNeLMyhyvfQArrh/AFlid8wiqY/7VjC2Pn+pP6L/BZT8WHpNsIVdkHvObI/+KEAFgs5L/sVcv7rcdIkm1AHoVMg954XBlH/YhlWbFV2GuYo0+s/T1WDmOBMPfi7tIGOr4B5OIN+uwZXCy7wRUCEUOHq0+8JBOM6gERsj69MFG0DGgW3coX6tcJkxD0bEaG6IDKKurocL4uI/SbqVrnbKOeTJGQvvg0aa2yQqN15rkQejplxoBm+oZ8kH+kUFx8PPoXdhvFsjK/bV5HsOG9khC0eaojQhhlfGowt2X0PNpFUjnt5P7IaCQYxkd+uoC/Xm+7jbHreWQdYJa+gugzopim6a4cCjkMMhtUZAMhGVIeUzi82jERYsfM12C3A9krOg==\",\"expiration\":\"2026-07-18T18:01:43Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZWRLD7MLWJ:resource-explorer-2\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5NDEwMzY4NzpSOlRmMHhabHZH\"},\"requestID\":\"b120e0a8-619c-4d1d-a527-d979376e43b0\",\"eventID\":\"95758a4b-835e-3ea1-b480-9a29296c3ed5\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"614cbf04-581a-4bdd-9f8b-0beed0e89633\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "f722e803-b491-477c-81af-eac7f75beaa5",
+      "EventName": "ListPolicies",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZXHHYSBSB",
+      "EventTime": "2026-07-18 17:01:43+00:00",
+      "EventSource": "iot.amazonaws.com",
+      "Username": "resource-explorer-2",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZWRLD7MLWJ:resource-explorer-2\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZXHHYSBSB\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZWRLD7MLWJ\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForResourceExplorer\"},\"attributes\":{\"creationDate\":\"2026-07-18T17:01:43Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-07-18T17:01:43Z\",\"eventSource\":\"iot.amazonaws.com\",\"eventName\":\"ListPolicies\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":{\"ascendingOrder\":false},\"responseElements\":null,\"requestID\":\"12c2fd14-bcb2-44f3-b700-450958841d3d\",\"eventID\":\"f722e803-b491-477c-81af-eac7f75beaa5\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "58a6a7e7-ddfb-4db0-b537-e1adf47fbe8e",
+      "EventName": "PutCredentials",
+      "ReadOnly": "false",
+      "AccessKeyId": "ASIA2L36SXNZZCBSPHBJ",
+      "EventTime": "2026-07-18 17:00:55+00:00",
+      "EventSource": "cloudshell.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZZCBSPHBJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T17:00:55Z\",\"eventSource\":\"cloudshell.amazonaws.com\",\"eventName\":\"PutCredentials\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"196.70.201.116\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\"requestParameters\":{\"EnvironmentId\":\"97b07620-294c-4ef5-a5c7-9797b7c0b727\",\"RefreshToken\":\"***\",\"KeyBase\":\"***\"},\"responseElements\":null,\"requestID\":\"9411e2c4-b33b-45b9-80fc-ddcae5555030\",\"eventID\":\"58a6a7e7-ddfb-4db0-b537-e1adf47fbe8e\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "bed176bd-b10e-4e8c-a7cd-327973d1a134",
+      "EventName": "GetCallerIdentity",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZSI3IHYPP",
+      "EventTime": "2026-07-18 17:00:55+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZSI3IHYPP\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T17:00:55Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"GetCallerIdentity\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"51.20.127.166\",\"userAgent\":\"aws-sdk-go/1.55.8 (go1.26.4; linux; amd64)\",\"requestParameters\":null,\"responseElements\":null,\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5NDA1NTIwMzpSOk5iekpBRkU3\",\"RequestDetails\":{\"awsServingRegion\":\"eu-north-1\",\"endpointType\":\"regional\"}},\"requestID\":\"4588f20c-5d2b-43b9-8840-bcc058cb9e7b\",\"eventID\":\"bed176bd-b10e-4e8c-a7cd-327973d1a134\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"sts.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "52887ed1-f8cf-44d3-a205-7f642c5208f4",
+      "EventName": "GetEnvironmentStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZZCBSPHBJ",
+      "EventTime": "2026-07-18 17:00:54+00:00",
+      "EventSource": "cloudshell.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZZCBSPHBJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T17:00:54Z\",\"eventSource\":\"cloudshell.amazonaws.com\",\"eventName\":\"GetEnvironmentStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"196.70.201.116\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\"requestParameters\":{\"EnvironmentId\":\"97b07620-294c-4ef5-a5c7-9797b7c0b727\"},\"responseElements\":null,\"requestID\":\"814daed1-84b0-465b-ae78-9abc692d6144\",\"eventID\":\"52887ed1-f8cf-44d3-a205-7f642c5208f4\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "a9268d3b-edb3-4347-85d0-b541de8734f8",
+      "EventName": "DescribeInstanceStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ5VN57SRX",
+      "EventTime": "2026-07-18 17:00:01+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5VN57SRX\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:56:01Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T17:00:01Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeInstanceStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\"}]},\"filterSet\":{},\"includeAllInstances\":true,\"includeManagedResources\":true},\"responseElements\":null,\"requestID\":\"b8a2c81d-b1c4-45dc-9c79-e3e24566fbbb\",\"eventID\":\"a9268d3b-edb3-4347-85d0-b541de8734f8\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "ad81f7f4-5d1d-4cb1-8082-a607f1309c9a",
+      "EventName": "DescribeInstanceStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ5VN57SRX",
+      "EventTime": "2026-07-18 16:58:01+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5VN57SRX\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:56:01Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:58:01Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeInstanceStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\"}]},\"filterSet\":{},\"includeAllInstances\":true,\"includeManagedResources\":true},\"responseElements\":null,\"requestID\":\"98782a40-908d-4044-8f2a-ee4d9a850727\",\"eventID\":\"ad81f7f4-5d1d-4cb1-8082-a607f1309c9a\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "3786266b-a869-35f9-8a36-7477e526ef20",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 16:57:41+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZZFMMWCEU"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZWRLD7MLWJ:resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:57:41Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"roleSessionName\":\"resource-explorer-2\"},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZZFMMWCEU\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRjBEAiA0ydSmHoAzeQjpDI74L5nMzenH51tP2cbmyVQeUoyHFQIgPUBswblvjXSI1UpJTWxTmCwUNPN7retVeMhO4T4kQuYq8gIIehAAGgw3MTI2OTMxNjkwMTEiDLQltpd8vKnsBtmQjSrPApQlp+K/Xx1Ihn3FQ+rZWky7fTAOm9pkln+itvIyKfcbO+qLIf+UhmoQzMqNbGo8XV23SGvBabMpicN3/7bIzYLJs6Oewcx2u4pK3RtWtJWmcys7mtg9eiw15oE/9l6IswvWKCCItTjFkjaHU//FpctdtkgSsfBTdWrNJwqJyCoyZD/rL3JO18MPL+NCnzlgnLwu3STdvKp62Be/0+d/Zer8L1MqRG+LXRow1kddDEXubZAe1Avq7WgUVtS9kVmSlBHMomU+/g0tiAZ1Ut2X6tf6ByDGrTHsLY2GbN5GMBe6tzAiE/WmY3novckMiZvWJdxp0BA7ukIlEIpw9otpUsShbfOjgHxn3P/drLs5amWGM7xHHX3oo0kSXD9AyJFacyeGDUXid0bVvDGHxKLFBlCipNKrj2qxPFd/oyl44cu5HCkdNysv46mFIM2t/qiqMIXh7tIGOr4BGq3q2bnzP+b9eZi/orc0ahMaUYqxb5B+WrlHNUU5aRiob9wvNxoCW1otsVIgp3w57HO/3VhDuvu76NNO8XVrwozbs/F2+1TCY9DaemdUbegqWxddGWm3P5AtZutlbGaDBmjszz9QQt3WxMsYBiQO2OU0PemeclnradboylZ6wdgU3cFPme4i4CteLjyELdosHmMXQQ0rlvk39PtSm0yhLTVe/ouiEYoLJ5P9MG345kjkFrSDZ0p9foTL76usRw==\",\"expiration\":\"2026-07-18T17:57:41Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZWRLD7MLWJ:resource-explorer-2\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5Mzg2MTM0NDpSOmROamtZZXFv\"},\"requestID\":\"55fd7e6c-0aa1-49ef-8e46-02e1e50e9aac\",\"eventID\":\"3786266b-a869-35f9-8a36-7477e526ef20\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"c19ce3de-522f-43bc-9154-090aa2fed67f\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "412cf656-271d-4812-97fd-8086c220c7a0",
+      "EventName": "ListFilters",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZZFMMWCEU",
+      "EventTime": "2026-07-18 16:57:41+00:00",
+      "EventSource": "inspector2.amazonaws.com",
+      "Username": "resource-explorer-2",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZWRLD7MLWJ:resource-explorer-2\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZZFMMWCEU\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZWRLD7MLWJ\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForResourceExplorer\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:57:41Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:57:41Z\",\"eventSource\":\"inspector2.amazonaws.com\",\"eventName\":\"ListFilters\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"errorCode\":\"SubscriptionRequiredException\",\"requestParameters\":{\"maxResults\":100},\"responseElements\":null,\"requestID\":\"c45679d4-22e3-4283-9aa5-259588d50cbb\",\"eventID\":\"412cf656-271d-4812-97fd-8086c220c7a0\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "18e7095d-6b0d-3e1a-9658-5be81eb642e9",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 16:56:48+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZXNTJ66GI"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZWRLD7MLWJ:resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:56:48Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"roleSessionName\":\"resource-explorer-2\"},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZXNTJ66GI\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRjBEAiBPvCsvpCzkQen8r76siIMcHCWllZdqhsXIk/bCodGU6gIgJIo+rK1sudvJztvUlNpXcEt20+AHGgpeeAoOf3TfxNsq8gIIehAAGgw3MTI2OTMxNjkwMTEiDHLJ3+VnvOtU0sL6pyrPAsQx2mAX9mfdaWHgLPZI94KLbzWMkxVq3sLL3RXffOngAqVAly7O6MAqQbs1g6cWmbauzxPHUfkByEI9iviXJu35whHimP8Qer/wixuY0WAPF+ESbPaSgTQRL8UX3yRnpJ3LXSnajNaNPXeRjyINyhr9u4QP40NFRd3WrmTPbYqddqFfMk/5ZI0kOsfyu8CHce7zoArEpRNXvO4FEtclZHWSB3qoHpO52wPIUveOdrGXyaxudyJ5TkbNt8LCXL5gt8kNLgIGwoTZrOLxgH3JBfAE817Fx/zIJTWKXqZ3BL44Fgfera+dCyCWUA6PL1yco9psP8Tn/0PCaIQ5UTcijtqrs+zdTuQDL5uQMOXxX4p02Sc2aaw0V8Pcw4xWd6T2KGm1G+mpev64YqyTQU2PZNT7wiGDvmn+C6koSD8DsuKmWE7V41dT9/an6gecWs7EMNDg7tIGOr4BD1yH/uWGF7SqGwTEsu7UVQyLv46qTV92A1m76vDhepk9m/YYsVzLrO4LEK5I/+pnXCpodnBwy/VdQIIUEcHufJeLyHPMCeTdXTwpKQHSdj0AD4rRyproVl3Jeq2zeS2EZf2Pq4vFGFHoTnUDF0n7kk/q59ltOipNRLTkc7dB+EoGL7U2ZkYMiodJQyzsS2iU6DHsGAlDGLv2GcuBH6v7IY4wrQLwEZllgvG4aBV4w+zTiqibv2hhUJ1WkTqndg==\",\"expiration\":\"2026-07-18T17:56:48Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZWRLD7MLWJ:resource-explorer-2\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5MzgwODg0NTpSOlYzUEEwYzZv\"},\"requestID\":\"c8451211-df17-45ab-a1a9-3a2399ba5732\",\"eventID\":\"18e7095d-6b0d-3e1a-9658-5be81eb642e9\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"74056e1a-8c10-42aa-8487-35addc890d9e\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "1e96539a-1ae0-458a-8354-7e07c0f2d5c6",
+      "EventName": "ListExperiments",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZXNTJ66GI",
+      "EventTime": "2026-07-18 16:56:48+00:00",
+      "EventSource": "sagemaker.amazonaws.com",
+      "Username": "resource-explorer-2",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZWRLD7MLWJ:resource-explorer-2\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZXNTJ66GI\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZWRLD7MLWJ\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForResourceExplorer\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:56:48Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:56:48Z\",\"eventSource\":\"sagemaker.amazonaws.com\",\"eventName\":\"ListExperiments\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":null,\"responseElements\":null,\"requestID\":\"61f07751-5092-4811-99e1-ea4b3673a6ea\",\"eventID\":\"1e96539a-1ae0-458a-8354-7e07c0f2d5c6\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "1d711b31-cb36-3e68-8baa-1bfface4396e",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 16:56:01+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZ5VN57SRX"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZURJLZ3V2W:AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:56:01Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"roleSessionName\":\"AutoScaling\",\"durationSeconds\":1800},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZ5VN57SRX\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRzBFAiAcdpSwyQlELwlBREwNrKB1ZithjeS33Od7/qkzYZH1nwIhAKryiTboyZM5jjqVrTdTKdT19w470+UXbAx7odQ2xDLXKtoCCHoQABoMNzEyNjkzMTY5MDExIgxrkc3UE2y9bStpmJQqtwKEAKhC6oniTeByCZm1ZXjavuS1JaihDoRlHqSVmLT6M1xgkUbhEgByH39KWZ1JOHaqke9stTzzeQRkFG/ibJd0Xe5VCmA7io4qTbxG17EKD5rALbP6QeLoSjpQHAAJDrKgGy9zgTR/Cyx/eAZcsRjAJcG+ER2ooqd/SKtOI6djLA0Ui8a0U6+J8u6SW0ABHwjxKq+IdFCt8gTN/K/o+c8D8Hlpzx69R65BXtfkveUY3Sf4mS3cKVrdEazDNiunFomkbmeg+UveUTeDhVyj5XjBNsFscdONHY4G8OnFjvuxPMPlSPuh5iOO+DYrmgyadxaGLxK/+gAgjrR7wT7fL/4hv38+LogZQIzAJ0m6unlIXA/dBDdPWAez5LrTrkDdUvp2g55PXup9JD6iV/bhBXwoldAaYLvfTDCh4O7SBjq9AThK6ndSLlHK06f0qQpELDXAHmQKlF40Wc7xjxkHiknLgFxUNeJ5T0uMyEqQ48sEYSNBLNch4b/tR9k1F6lG4j2ZboKfBBA1Vf0DeEG/YjtjyLKsUARoAkM8SGVT02YuQ4eQ6np5GRklzHCZsd7a86wJyNFA1XrfhC5HtYnfuMtO1aVw+kUl+99TC/OIAUvdCYKf9Ly7Laps1BpP4FGjKXpgbJ+R67a7U+135OrBILbEHJIp/lAXjhgCbf+0qQ==\",\"expiration\":\"2026-07-18T17:26:01Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5Mzc2MTM1MTpSOnpUcVl1Z1pz\"},\"requestID\":\"902e787e-4448-4527-9279-92a8dff3ecdc\",\"eventID\":\"1d711b31-cb36-3e68-8baa-1bfface4396e\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"20e3b5da-239b-4242-9e18-466e4afbe73e\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "a5199fa2-dcd0-47dd-a9e2-d562bd074e83",
+      "EventName": "DescribeInstanceStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ5VN57SRX",
+      "EventTime": "2026-07-18 16:56:01+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5VN57SRX\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:56:01Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:56:01Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeInstanceStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\"}]},\"filterSet\":{},\"includeAllInstances\":true,\"includeManagedResources\":true},\"responseElements\":null,\"requestID\":\"4faf353e-0423-41eb-98de-b001289997d5\",\"eventID\":\"a5199fa2-dcd0-47dd-a9e2-d562bd074e83\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "0640e158-b130-4427-adb4-d166db414d95",
+      "EventName": "SendHeartBeat",
+      "ReadOnly": "false",
+      "AccessKeyId": "ASIA2L36SXNZVJTRFZXE",
+      "EventTime": "2026-07-18 16:55:32+00:00",
+      "EventSource": "cloudshell.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZVJTRFZXE\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:55:32Z\",\"eventSource\":\"cloudshell.amazonaws.com\",\"eventName\":\"SendHeartBeat\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"196.70.201.116\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\"requestParameters\":{\"EnvironmentId\":\"97b07620-294c-4ef5-a5c7-9797b7c0b727\"},\"responseElements\":null,\"requestID\":\"aebcd8dc-daae-407b-865d-329eb1ac7109\",\"eventID\":\"0640e158-b130-4427-adb4-d166db414d95\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "0ffb53cb-2d41-4c7c-9529-059111648755",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:55:15+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:55:15Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"a3d45039-404f-481d-bb69-d7095a15499b\",\"eventID\":\"0ffb53cb-2d41-4c7c-9529-059111648755\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "484f3c96-21c6-458d-bdb8-a11ce0e4bae1",
+      "EventName": "DescribeScalingActivities",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:55:15+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:55:15Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeScalingActivities\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupName\":\"zero-trust-lab-asg\"},\"responseElements\":null,\"requestID\":\"d818efac-d8a9-4b48-8860-5fa09de4f88a\",\"eventID\":\"484f3c96-21c6-458d-bdb8-a11ce0e4bae1\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "59213cd7-9765-4cbc-a893-5c5347869d03",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:55:15+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:55:15Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"a3898390-fb3f-4862-a227-8963646a75ea\",\"eventID\":\"59213cd7-9765-4cbc-a893-5c5347869d03\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "bda59aa0-e8b0-4b4f-9d16-9af905aa3c8f",
+      "EventName": "RegisterManagedInstance",
+      "ReadOnly": "false",
+      "AccessKeyId": "ASIA2L36SXNZ5ODZMRK5",
+      "EventTime": "2026-07-18 16:55:14+00:00",
+      "EventSource": "ssm.amazonaws.com",
+      "Username": "i-0c9ffd8dbbd998a94",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"712693169011:aws:ec2-instance:i-0c9ffd8dbbd998a94\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/aws:ec2-instance/i-0c9ffd8dbbd998a94\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5ODZMRK5\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"712693169011:aws:ec2-instance\",\"arn\":\"arn:aws:iam::712693169011:role/aws:ec2-instance\",\"accountId\":\"712693169011\",\"userName\":\"aws:ec2-instance\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:55:02Z\",\"mfaAuthenticated\":\"false\"},\"ec2RoleDelivery\":\"2.0\"},\"inScopeOf\":{\"issuerType\":\"AWS::EC2::Instance\",\"credentialsIssuedTo\":\"arn:aws:ec2:eu-north-1:712693169011:instance/i-0c9ffd8dbbd998a94\"}},\"eventTime\":\"2026-07-18T16:55:14Z\",\"eventSource\":\"ssm.amazonaws.com\",\"eventName\":\"RegisterManagedInstance\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"51.20.140.3\",\"userAgent\":\"aws-sdk-go/1.55.5 (go1.25.11 X:nodwarf5; linux; amd64) amazon-ssm-agent/3.3.4624.0\",\"requestParameters\":{\"publicKey\":\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1tK554BSrAO5oixJGXSuFX3o4/lGVxmUFdZsIrJaGduu/eX6Kr8bG7meUABw6VFPy1zQT0gILcO8UGhC79tURudvJLk01raGaqp5IY1gxh2CqHRaBgf+bsTXLxlRRkl1I2gSU7hZXXwY6jQJorP1Tjmon7Tbw4JMpt5WN30/S+cZVh+rTvFkt6f9M/KJr0GmAxK7LfcKBJ7+GWmginylL/t1XOMcZu8qzUfrzR5mDdEc9Zi3Q8h1pR7l6RBOzVYv7oj6B2q9p15/ULPYZDfu2vsPZDhGoty5xHbvkDqhQYeNQTQ65l26JHkpQsfqRu8kKuyvkzpwbHsPQ3yGefx5OQIDAQAB\",\"publicKeyType\":\"Rsa\",\"fingerprint\":\"i-0c9ffd8dbbd998a94\"},\"responseElements\":{\"instanceId\":\"i-0c9ffd8dbbd998a94\"},\"requestID\":\"dde19649-2b17-4aab-a3c8-27c2d1388f91\",\"eventID\":\"bda59aa0-e8b0-4b4f-9d16-9af905aa3c8f\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.2\",\"cipherSuite\":\"ECDHE-RSA-AES128-GCM-SHA256\",\"clientProvidedHostHeader\":\"ssm.eu-north-1.amazonaws.com\"}}"
+    },
+    {
+      "EventId": "3c468fc8-828c-3ce7-badf-c5f7b5ef63a0",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 16:55:06+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZRIINZBVO"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZURJLZ3V2W:AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:06Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"roleSessionName\":\"AutoScaling\",\"durationSeconds\":1800},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZRIINZBVO\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRjBEAiBOQeZAGQuXDWWMRme12mMe9FoLOzHD23BD6m3VkfTs8QIgLwki8rNK88RhaXjczfBJgIpFU2F+ccgUnyAh1kdlMUkq2gIIehAAGgw3MTI2OTMxNjkwMTEiDBawyBg/rRsxzl3uKiq3AvgCr3GCeTsnKiSHTGsGfyejFky9wtW9+KI5+qQX0uULPsSm6sdnPCbsTwUQSnjep0wKGJtNMGPDGXnZEHhKjQe4Ca8ta5c9CPOf1IBM+DpTFK682bYh8NQ67q8/zQxDNR4+f5KcHm9cffYu7czwd4i8BYlR4zGwdF2uTuZ+nLnWTif3w2+qTIf7yOXU5YWGGCby0jy/TT5tH6ph53Io7l52NTWmh+cganaHSxmC6+ooGbLwhICoyKa4jRIR/ooGnJhwyFMucDCXt+OpIXNqay9mhH0QqXXUxgspNd1H2VCUadCp42glVFBtLme+PV8iaAVjliaQ81MVQXqGskn2GNjo/MtaYJ3XqXDB6qETpg75vFTiyOE5PYq9+FulaxM2pLBwaQD4VEHbmmxZhdtta+KAxyPCbpvgMOrf7tIGOr4BLk714bmr20tztV2kGBibJStrbUaZMUUN/9SodYUfAyRrplSldA3wWaMXIZxZIkS65+hWMx+x/JILykUX6epBvgmrQyEKfWysz5H9tsXcgUDOQsVjT0aiPLidCmN0A2LprXSWKlLNlgkLo6QARjcNkTHxnb3D/4CJwhl4pgOUh1XyFp1MJAjPFdufy5Jvxe6ATk1BxxirqxlWKdDXX4jUqzRtKwAtf8haciQAndtQ3geYDtJwslKWkmtuX1A0xQ==\",\"expiration\":\"2026-07-18T17:25:06Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5MzcwNjgxMjpSOkhya0ZyS3Fo\"},\"requestID\":\"31cdd1d3-dbca-472c-b35e-a2a98d9c84d2\",\"eventID\":\"3c468fc8-828c-3ce7-badf-c5f7b5ef63a0\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"348bac33-edba-4a12-9605-505b3bdd0f6c\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "59af48ff-1741-4e3d-87ae-5a24d6bc1853",
+      "EventName": "DescribeInstanceStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ6I2FKKID",
+      "EventTime": "2026-07-18 16:55:05+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ6I2FKKID\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:55:05Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:05Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeInstanceStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\"}]},\"filterSet\":{},\"includeAllInstances\":true,\"includeManagedResources\":true},\"responseElements\":null,\"requestID\":\"f03a8db4-3eb8-4510-94ba-0aef5cdc56fd\",\"eventID\":\"59af48ff-1741-4e3d-87ae-5a24d6bc1853\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "6ae86c70-dd43-4307-93aa-fd86d075c76a",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:55:05+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:55:05Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"4d81a0a8-f567-4f6d-ad3f-76ee7cb97bd7\",\"eventID\":\"6ae86c70-dd43-4307-93aa-fd86d075c76a\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "93d97df4-298c-32db-8c07-8e895b34ab53",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 16:55:05+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZ6I2FKKID"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZURJLZ3V2W:AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:05Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"roleSessionName\":\"AutoScaling\",\"durationSeconds\":1800},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZ6I2FKKID\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRzBFAiEAoN8JY+VGug19XhPsfl7WiZxFnfoJJGQhkgr/Gl5hzRcCIBgWeL5P4wB2ca2jg5tQuH3TIJunPQOHENteQR83ZPRIKtoCCHoQABoMNzEyNjkzMTY5MDExIgwEvnvIhMn4jvpKq3sqtwJF/gGZSq6zIFViEYJigrzW6BwJaA71v/KFqhY6npByheaH+Q9/As6+pnsW6xo0wcRLaWEhsgKKYycweZ6rHBPcLC7UgebAUvzRj2LDNKEx2+adXQcqd4T3bPQT2ssKvkNxFSZNrbmnBm5FRPVHKXys/Sb7owNygEZcQpFDCGF+gG/Gh7h+fEoo5+7m63nn3ZvSK3hqpm4aTGZuxN8ASM9kYbmlrnlfzcdCyKIKVFA3RvUB3g6SiBTM6CD42S/8g1SPROKRmiGQPzIoUm5ba06K16OvfaQyRM9Z7z7Irucfxji+sGtOgDCfnF4lu1V4PjxVhZWbRaBhWffV2p9jDt/1VqdamfMssaoWG72HxJosvgdjbR6EDR6/CW8bedvDbmagXeG39E0GKOr8rhKfOqZZ37S/QAqeljDp3+7SBjq9AWhO8rdJzrrnPRfJocFpz5HJhs7kZnQJ9hWB5FFk9z+Wuaq5rSPePeh+umPvMe8kAAUCOKUazh/5849V5AQfJbOWGBxjVShNO/wzyBRhYlZvhpBG1zdJGkFee2Ll/36HWJYwXrMaxxzZiIgMPZC9Nx/PJ0yFBM1cnAB3/sgifNMmka8nKgLjWzEng2Vmfg4qAdziH0ik/ECEGrNh/UiXifAWF6TjRdVN+Y9NpcavzGQjTdnnE4jaEwgEanXXxg==\",\"expiration\":\"2026-07-18T17:25:05Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5MzcwNTgwNDpSOnZiQkNqNmQx\"},\"requestID\":\"0a0ef296-5a9a-45bc-9aca-183eb4ab1c32\",\"eventID\":\"93d97df4-298c-32db-8c07-8e895b34ab53\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"78b58704-9650-40d9-afe8-94fe0a0a6c35\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "df9f8efe-d10f-4d60-8b09-e7bee087c836",
+      "EventName": "DescribeScalingActivities",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:55:05+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:55:05Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeScalingActivities\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupName\":\"zero-trust-lab-asg\"},\"responseElements\":null,\"requestID\":\"e80b05ae-ddc0-4ebb-a37c-ffb3507bba66\",\"eventID\":\"df9f8efe-d10f-4d60-8b09-e7bee087c836\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "1bc923c0-6144-3818-ba01-ef32ab7a17a6",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 16:55:03+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZ72W2PMQO"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZWRLD7MLWJ:resource-explorer-2"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:03Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"roleSessionName\":\"resource-explorer-2\"},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZ72W2PMQO\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRzBFAiB89ieF9Bw/0oeq8fWlw2V4JLlbgZ1dHnEZMPE95FMYuAIhAPijKs0k7RGg0/RuzDRb1CymUznws1RyHuvgSb30uhK/KvICCHoQABoMNzEyNjkzMTY5MDExIgyCxIAzRpfFkAuet24qzwKawj24Y4SbbShgoEUUiZXT9fTTbrQfGCsvExCF/WbuDzs02SBXRgh1SFF4+R2oAByLdcpDbnedUmN9oQUt6oYYWSOO5FSGBXsbu4O09nQEvsGeAhCAnmuFdzGUdDwN0g0z+pb+P1XAzxSFDXCzErVJDMcj2+DRv7AGcKnEEeFX9/l/Nwary3anEjfO94EO78mmasrZVNI4Ry+JmSrArZFXcJ49k8UUP2iMOuROpkPKOujJVTwenYXBy99ZU4SZvy8wolcbui1UO9c7oZycEvACJZ4MUG99rjdZk6p+HqTIKo3QsSF1sduMwjwJ2JgPBec4zzPPhBRUiYSvCikZ9db6nWvmRKniFBWtHoTaJrVVcJZhvgE6/JpLn8dP50EMUfx6CFzkz0TgUxXQ2StFJolCGF1YH4/nMFr2av0b4OtaQX7mfl5jrvBiHbuoEtY3vzDn3+7SBjq9AacfKLMwuYEUK4Oxusf4Yq55uQM0rn5rvzcXwKmzoiVXtPC9VEytovAi/e8NMOgHQmz2BdhIuPqMrHUaYghj+mN3dF1R+9QLDAh+y8B/bv+MxySO6iDk9v2KT7vwENTYwEBju09SKc7AATugssZieYF66V+W716pkApPlrol2NTHWnOBMIqMerO0JqOIM73RqfhH2obJqc+C5vItz01vzs9QWG02Tb1kwM9gZdrAktPYTs8z6KrSZSzLv3v3+Q==\",\"expiration\":\"2026-07-18T17:55:03Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZWRLD7MLWJ:resource-explorer-2\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5MzcwMzY1MDpSOnNpNm54U0NZ\"},\"requestID\":\"fb56e902-1716-4fba-a809-055a48b51723\",\"eventID\":\"1bc923c0-6144-3818-ba01-ef32ab7a17a6\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"1b92b3d9-8fe3-4dd2-bdb4-82cb7de928c5\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "9aac8936-495e-4bd1-bf38-d68fdc5b4886",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ72W2PMQO",
+      "EventTime": "2026-07-18 16:55:03+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "resource-explorer-2",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZWRLD7MLWJ:resource-explorer-2\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ72W2PMQO\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZWRLD7MLWJ\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForResourceExplorer\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:55:03Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:03Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"6f1e98f7-bf3b-41fd-95aa-2ccd6f937d51\",\"eventID\":\"9aac8936-495e-4bd1-bf38-d68fdc5b4886\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "df65118f-795a-345e-8a48-a16ab232f648",
+      "EventName": "SharedSnapshotVolumeCreated",
+      "ReadOnly": "false",
+      "EventTime": "2026-07-18 16:55:03+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"accountId\":\"712693169011\",\"invokedBy\":\"ec2.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:03Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"SharedSnapshotVolumeCreated\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"ec2.amazonaws.com\",\"userAgent\":\"ec2.amazonaws.com\",\"requestParameters\":null,\"responseElements\":null,\"eventID\":\"df65118f-795a-345e-8a48-a16ab232f648\",\"readOnly\":false,\"eventType\":\"AwsServiceEvent\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"37bb3bcf-c5dd-4071-86fb-a774a18047c2\",\"serviceEventDetails\":{\"snapshotId\":\"snap-0dca7d87e171690ed\"},\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "b827d87d-439a-4270-87a6-d73a4a53c658",
+      "EventName": "RunInstances",
+      "ReadOnly": "false",
+      "AccessKeyId": "ASIA2L36SXNZ5V2XTEOJ",
+      "EventTime": "2026-07-18 16:55:01+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [
+        {
+          "ResourceType": "AWS::EC2::VPC",
+          "ResourceName": "vpc-06eb14f69222326e7"
+        },
+        {
+          "ResourceType": "AWS::EC2::Ami",
+          "ResourceName": "ami-09ff6856266bdd4bd"
+        },
+        {
+          "ResourceType": "AWS::EC2::NetworkInterface",
+          "ResourceName": "eni-0cd31d155148f5c2d"
+        },
+        {
+          "ResourceType": "AWS::EC2::Instance",
+          "ResourceName": "i-0c9ffd8dbbd998a94"
+        },
+        {
+          "ResourceType": "AWS::EC2::KeyPair",
+          "ResourceName": "zero-trust-lab-key"
+        },
+        {
+          "ResourceType": "AWS::EC2::SecurityGroup",
+          "ResourceName": "sg-074d2c1e9d0c20bf8"
+        },
+        {
+          "ResourceType": "AWS::EC2::SecurityGroup",
+          "ResourceName": "zero-trust-lab-public-sg"
+        },
+        {
+          "ResourceType": "AWS::EC2::Subnet",
+          "ResourceName": "subnet-04d478d7f5cfa93af"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5V2XTEOJ\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:55:00Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:01Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"RunInstances\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"instancesSet\":{\"items\":[{\"minCount\":1,\"maxCount\":1}]},\"blockDeviceMapping\":{},\"availabilityZone\":\"eu-north-1a\",\"monitoring\":{\"enabled\":false},\"subnetId\":\"subnet-04d478d7f5cfa93af\",\"disableApiTermination\":false,\"disableApiStop\":false,\"clientToken\":\"a8867dd8-9c4c-be1b-7d8e-fe744af9e82b\",\"tagSpecificationSet\":{\"items\":[{\"resourceType\":\"instance\",\"tags\":[{\"key\":\"aws:autoscaling:groupName\",\"value\":\"zero-trust-lab-asg\"},{\"key\":\"Name\",\"value\":\"zero-trust-lab-asg-instance\"}]}]},\"launchTemplate\":{\"launchTemplateId\":\"lt-024b9c9b5dcf55e96\",\"version\":\"1\"}},\"responseElements\":{\"requestId\":\"4bb00567-867e-4efa-bff9-aac3c6f6ddec\",\"reservationId\":\"r-05739048d84cd445b\",\"ownerId\":\"712693169011\",\"groupSet\":{},\"instancesSet\":{\"items\":[{\"instanceId\":\"i-0c9ffd8dbbd998a94\",\"imageId\":\"ami-09ff6856266bdd4bd\",\"bootMode\":\"uefi-preferred\",\"currentInstanceBootMode\":\"uefi\",\"instanceState\":{\"code\":0,\"name\":\"pending\"},\"privateDnsName\":\"ip-10-0-1-230.eu-north-1.compute.internal\",\"keyName\":\"zero-trust-lab-key\",\"operator\":{\"managed\":false},\"amiLaunchIndex\":0,\"productCodes\":{},\"instanceType\":\"t3.micro\",\"launchTime\":1784393701000,\"placement\":{\"availabilityZone\":\"eu-north-1a\",\"availabilityZoneId\":\"eun1-az1\",\"tenancy\":\"default\"},\"monitoring\":{\"state\":\"disabled\"},\"subnetId\":\"subnet-04d478d7f5cfa93af\",\"vpcId\":\"vpc-06eb14f69222326e7\",\"privateIpAddress\":\"10.0.1.230\",\"stateReason\":{\"code\":\"pending\",\"message\":\"pending\"},\"architecture\":\"x86_64\",\"rootDeviceType\":\"ebs\",\"rootDeviceName\":\"/dev/xvda\",\"blockDeviceMapping\":{},\"virtualizationType\":\"hvm\",\"hypervisor\":\"xen\",\"tagSet\":{\"items\":[{\"key\":\"aws:ec2launchtemplate:version\",\"value\":\"1\"},{\"key\":\"Name\",\"value\":\"zero-trust-lab-asg-instance\"},{\"key\":\"aws:autoscaling:groupName\",\"value\":\"zero-trust-lab-asg\"},{\"key\":\"aws:ec2launchtemplate:id\",\"value\":\"lt-024b9c9b5dcf55e96\"}]},\"clientToken\":\"a8867dd8-9c4c-be1b-7d8e-fe744af9e82b\",\"groupSet\":{\"items\":[{\"groupId\":\"sg-074d2c1e9d0c20bf8\",\"groupName\":\"zero-trust-lab-public-sg\"}]},\"sourceDestCheck\":true,\"networkInterfaceSet\":{\"items\":[{\"networkInterfaceId\":\"eni-0cd31d155148f5c2d\",\"subnetId\":\"subnet-04d478d7f5cfa93af\",\"vpcId\":\"vpc-06eb14f69222326e7\",\"ownerId\":\"712693169011\",\"operator\":{\"managed\":false},\"status\":\"in-use\",\"macAddress\":\"06:cc:1a:8a:ba:47\",\"privateIpAddress\":\"10.0.1.230\",\"privateDnsName\":\"ip-10-0-1-230.eu-north-1.compute.internal\",\"sourceDestCheck\":true,\"interfaceType\":\"interface\",\"groupSet\":{\"items\":[{\"groupId\":\"sg-074d2c1e9d0c20bf8\",\"groupName\":\"zero-trust-lab-public-sg\"}]},\"attachment\":{\"attachmentId\":\"eni-attach-06a08ec025152f9e9\",\"deviceIndex\":0,\"networkCardIndex\":0,\"status\":\"attaching\",\"attachTime\":1784393701000,\"deleteOnTermination\":true},\"privateIpAddressesSet\":{\"item\":[{\"privateIpAddress\":\"10.0.1.230\",\"privateDnsName\":\"ip-10-0-1-230.eu-north-1.compute.internal\",\"primary\":true}]},\"ipv6AddressesSet\":{},\"tagSet\":{}}]},\"ebsOptimized\":false,\"enaSupport\":true,\"cpuOptions\":{\"coreCount\":1,\"threadsPerCore\":2},\"capacityReservationSpecification\":{\"capacityReservationPreference\":\"open\"},\"enclaveOptions\":{\"enabled\":false},\"metadataOptions\":{\"state\":\"pending\",\"httpTokens\":\"required\",\"httpPutResponseHopLimit\":2,\"httpEndpoint\":\"enabled\",\"httpProtocolIpv4\":\"enabled\",\"httpProtocolIpv6\":\"disabled\",\"instanceMetadataTags\":\"disabled\"},\"maintenanceOptions\":{\"autoRecovery\":\"default\",\"rebootMigration\":\"default\"},\"privateDnsNameOptions\":{\"hostnameType\":\"ip-name\",\"enableResourceNameDnsARecord\":false,\"enableResourceNameDnsAAAARecord\":false}}]},\"requesterId\":\"281707674408\"},\"requestID\":\"4bb00567-867e-4efa-bff9-aac3c6f6ddec\",\"eventID\":\"b827d87d-439a-4270-87a6-d73a4a53c658\",\"readOnly\":false,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::EC2::Instance\",\"ARN\":\"arn:aws:ec2:eu-north-1:712693169011:instance/i-0c9ffd8dbbd998a94\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "703746f6-f6f6-3c70-b747-ea53228bb75e",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 16:55:00+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZ5V2XTEOJ"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZURJLZ3V2W:AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:00Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"roleSessionName\":\"AutoScaling\",\"durationSeconds\":1800},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZ5V2XTEOJ\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRjBEAiARgXcCU85hF/HKZFRc8qK2j0znR+hMCYKGLyaNVP3XDAIgJIqiVM1Md/5dMmeK2HF+PpW58HN9AtMlQHg5C3rAPQwq2gIIehAAGgw3MTI2OTMxNjkwMTEiDPGLCuL7YXNheufItSq3ArNE3ZOl9Wmhx/5kiNObEFFTlazRc+qNodN8CqnntgKBVGLB2xIjSZXAao5yjmXDzCaK2jaJ3bZLkaP//qf/hmVDvplgwrDvIgUn7L8vSeY14F7vfxjfuj4LhLZc4QCaKrkfhKzd2p9NCByYY4hvAv9ee0vxt4D3SzRRbig8xOKmiSh2/HKPh4kVypmNTSDCU0c0rDcPQwl9QexfzQPv4zV6hgL835CmuDsgtOoZ+bCRFQi2ZX0GRcFAm9Vplg0jGQ3h5E/FLW+2O1yFql/lPoMGtxYKyE3MN/a/HFyPk5q4gZ/WS7hI0USrjJZ2uc6JCl+ArLIADVQ2dxkc7T3Q2uiHbeOb6DZMUlSv0ZFZpnBYLVK4AtKnnNbQU9hL3SQj+5VqbrsG9GyCYfb+VZ8GcH5aE321bR9zMOTf7tIGOr4BY3DRyJmn89DsGdP8OQMHBw1wUFGXaW4GXlPfuMxJvkd8se7xGt0jHUk8xrwtCUnl/4XYP9NdUykic1irvkBTR6A6MsCj/5H/k7HOxNQ1vgMsuJWUwk319PV0ktUqB6HmwwU1VaV9h0i8ls3T3XMKICFV5azej81fJc/eL0TIo6Tc39COE2UWK6UsT3U/8rGsc3XInnNVdP8+75eHqgUtuK4M1Tn5N8ZaJd5xHjkIytavz6uusCrCX56sSN6n3A==\",\"expiration\":\"2026-07-18T17:25:00Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5MzcwMDQ1NTpSOmh0VE4wbW1P\"},\"requestID\":\"7fe7eeae-6d11-43e7-87b7-9af4ef776401\",\"eventID\":\"703746f6-f6f6-3c70-b747-ea53228bb75e\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"096dbf2b-e639-495f-a4c0-9f455e790b3a\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "fdde6b63-9ecb-4b1b-add3-01f3780d7050",
+      "EventName": "DescribeLaunchTemplateVersions",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ5V2XTEOJ",
+      "EventTime": "2026-07-18 16:55:00+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [
+        {
+          "ResourceType": "AWS::EC2::LaunchTemplate",
+          "ResourceName": "lt-024b9c9b5dcf55e96"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ5V2XTEOJ\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:55:00Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:55:00Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeLaunchTemplateVersions\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"DescribeLaunchTemplateVersionsRequest\":{\"LaunchTemplateVersion\":{\"tag\":1,\"content\":1},\"LaunchTemplateId\":\"lt-024b9c9b5dcf55e96\"}},\"responseElements\":null,\"requestID\":\"d25a2d70-e893-4e01-8ad9-9b6d996efe6a\",\"eventID\":\"fdde6b63-9ecb-4b1b-add3-01f3780d7050\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "06842b95-4b17-3991-baf0-e3af29a463d3",
+      "EventName": "AssumeRole",
+      "ReadOnly": "true",
+      "EventTime": "2026-07-18 16:54:59+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Resources": [
+        {
+          "ResourceType": "AWS::IAM::AccessKey",
+          "ResourceName": "ASIA2L36SXNZRWQU5HA4"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AROA2L36SXNZURJLZ3V2W:AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::STS::AssumedRole",
+          "ResourceName": "AutoScaling"
+        },
+        {
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceName": "arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AWSService\",\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:54:59Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"AssumeRole\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"roleArn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"roleSessionName\":\"AutoScaling\",\"durationSeconds\":1800},\"responseElements\":{\"credentials\":{\"accessKeyId\":\"ASIA2L36SXNZRWQU5HA4\",\"sessionToken\":\"IQoJb3JpZ2luX2VjELH//////////wEaCmV1LW5vcnRoLTEiRzBFAiEAqWFKwv0cks/7ymnaJC4ehPSYpkevNsm6iyGU2ujDdgcCIG3/jC2DyrAGoOnjME3vISAOGdCl1GX9tQvLpTptS+pHKtoCCHoQABoMNzEyNjkzMTY5MDExIgwcuCcYE1w6Pe7+aoEqtwIWPsvV3hJ7GjTBp9yadQaWCIoqEHVDLgw+u0gjbC+DGhAux2uQEz+Rv1RaMWM9cQ+V4kLxoQXDig0gvN9t2JSS0WDY32YID4viRTiGzaiAloGHfEoa+wcvGhhmsUkONIX3RWbdRCeW0oah3IrYCwFHy1Se2dCEugNHLOJ79GOSofxih5nT0zmk8XxaeYPhtIr0fl7yYuDQ1PUbk1LI5sCHWK0R8igR/aQR69aTSiuDkEUYm4Oy6/3BKThb01Iw4bdxr9jqic+YDxeNG+K7ZYfg1AymqgVR299UXCUs0smp1dfcWLKoztYvfYWEA9JN033aqh/WidKNLMAHbcn6Wf41j8AbvohCLdvPdMt09GD3qwh9aE/20b384I52q1RRXuu0DmEzrwtGd9huU6aqzHkbZ554ks4OUDDj3+7SBjq9AVsfrwdvy2rBjLNdsBrms/ONzarnHWgTKbl27GzAmKyOUT4Okr+r44J5Zf7zebHkfColmOcC6A9JNlw/sgadvk2+/cKWpWJCPU5d6OVF5+0CiEn3fT8BBMElfpAyVWBaLO6vv2FXPENEXi7g6oVwMK5xPRUE+u1u8bE1GpE5FqDLDZbq0Hs3lGGKJ8OAzpBMsKOSOj5H1ev1v1rKXTUN6mmUdrV/CiJTOZWf0r33lKt4+KUMXi8aHeAgDad5/g==\",\"expiration\":\"2026-07-18T17:24:59Z\"},\"assumedRoleUser\":{\"assumedRoleId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\"}},\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5MzY5OTg5MTpSOjVMamFBcUpw\"},\"requestID\":\"bae7ea8b-a163-410d-a3f6-4fcc0e7ebd93\",\"eventID\":\"06842b95-4b17-3991-baf0-e3af29a463d3\",\"readOnly\":true,\"resources\":[{\"accountId\":\"712693169011\",\"type\":\"AWS::IAM::Role\",\"ARN\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\"}],\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"sharedEventID\":\"e5a0af22-451f-4057-8afe-43d17f23fb88\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "4c90c5d8-196e-481e-97c7-0a3559a64498",
+      "EventName": "DescribeLaunchTemplateVersions",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZRWQU5HA4",
+      "EventTime": "2026-07-18 16:54:59+00:00",
+      "EventSource": "ec2.amazonaws.com",
+      "Username": "AutoScaling",
+      "Resources": [
+        {
+          "ResourceType": "AWS::EC2::LaunchTemplate",
+          "ResourceName": "lt-024b9c9b5dcf55e96"
+        }
+      ],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W:AutoScaling\",\"arn\":\"arn:aws:sts::712693169011:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZRWQU5HA4\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROA2L36SXNZURJLZ3V2W\",\"arn\":\"arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling\",\"accountId\":\"712693169011\",\"userName\":\"AWSServiceRoleForAutoScaling\"},\"attributes\":{\"creationDate\":\"2026-07-18T16:54:59Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"autoscaling.amazonaws.com\"},\"eventTime\":\"2026-07-18T16:54:59Z\",\"eventSource\":\"ec2.amazonaws.com\",\"eventName\":\"DescribeLaunchTemplateVersions\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"autoscaling.amazonaws.com\",\"userAgent\":\"autoscaling.amazonaws.com\",\"requestParameters\":{\"DescribeLaunchTemplateVersionsRequest\":{\"LaunchTemplateVersion\":{\"tag\":1,\"content\":\"$Latest\"},\"LaunchTemplateId\":\"lt-024b9c9b5dcf55e96\"}},\"responseElements\":null,\"requestID\":\"1b2c6843-4e37-49d8-936f-4e194eb5b294\",\"eventID\":\"4c90c5d8-196e-481e-97c7-0a3559a64498\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\"}"
+    },
+    {
+      "EventId": "e840370b-b882-4ee7-97c5-db55686a30ef",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:55+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:55Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"4480d8ec-ac40-437a-80a6-38ead049770e\",\"eventID\":\"e840370b-b882-4ee7-97c5-db55686a30ef\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "ac6c7ee3-1a0f-453b-b1f5-24d7fb71937a",
+      "EventName": "DescribeScalingActivities",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:54+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:54Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeScalingActivities\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupName\":\"zero-trust-lab-asg\"},\"responseElements\":null,\"requestID\":\"968f987e-fe6d-4ef1-a42f-986f8cebb0a8\",\"eventID\":\"ac6c7ee3-1a0f-453b-b1f5-24d7fb71937a\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "0766fd97-1601-4812-9ac4-a31d845d28d8",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:44+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:44Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"a5f77c67-d2db-4840-93f2-4c04fa6f567e\",\"eventID\":\"0766fd97-1601-4812-9ac4-a31d845d28d8\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "5a12f23c-1bfc-4f62-a22c-19dbcd4ccd2a",
+      "EventName": "DescribeScalingActivities",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:44+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:44Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeScalingActivities\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupName\":\"zero-trust-lab-asg\"},\"responseElements\":null,\"requestID\":\"c9a6fdee-e8e5-442d-be77-715a61845f3b\",\"eventID\":\"5a12f23c-1bfc-4f62-a22c-19dbcd4ccd2a\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "5065bd4a-40f4-4131-a622-25bdc08f8d48",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:34+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:34Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"2e292fe0-69f7-48df-afb6-b1d008c47017\",\"eventID\":\"5065bd4a-40f4-4131-a622-25bdc08f8d48\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "a03e76a6-e0b9-48d9-9b2b-80cb7218cc5f",
+      "EventName": "DescribeScalingActivities",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:34+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:34Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeScalingActivities\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupName\":\"zero-trust-lab-asg\"},\"responseElements\":null,\"requestID\":\"1f1cd042-b36e-46cc-9bbc-bf5d88facd89\",\"eventID\":\"a03e76a6-e0b9-48d9-9b2b-80cb7218cc5f\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "8d061390-f8f5-43bd-ba3a-1f0b850b1565",
+      "EventName": "DescribeScalingActivities",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:24+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:24Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeScalingActivities\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupName\":\"zero-trust-lab-asg\"},\"responseElements\":null,\"requestID\":\"eb5ad703-772a-470b-a213-b4124a6e54bb\",\"eventID\":\"8d061390-f8f5-43bd-ba3a-1f0b850b1565\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "ae3cf46a-0c1f-4b49-9a47-67b04bede0c8",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:24+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:24Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"5483d5e3-0777-4846-9031-3ff2c2e86a14\",\"eventID\":\"ae3cf46a-0c1f-4b49-9a47-67b04bede0c8\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "5c79585d-973b-401d-ad0f-413c262c0c61",
+      "EventName": "DescribeScalingActivities",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:14+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:14Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeScalingActivities\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupName\":\"zero-trust-lab-asg\"},\"responseElements\":null,\"requestID\":\"4ae09dc5-4d88-44c2-837b-7d5ceec4aa6f\",\"eventID\":\"5c79585d-973b-401d-ad0f-413c262c0c61\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "e0c0aa3a-f17c-4884-825e-38eff803988d",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:14+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:14Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"88151100-dbdd-4edd-8314-8c407e74bc4e\",\"eventID\":\"e0c0aa3a-f17c-4884-825e-38eff803988d\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "70a3c2f0-d4b5-4d6d-9deb-91632e3e5bdf",
+      "EventName": "DescribeScalingActivities",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:04+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:04Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeScalingActivities\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupName\":\"zero-trust-lab-asg\"},\"responseElements\":null,\"requestID\":\"577618ba-4da3-4f84-b214-1054b38cce17\",\"eventID\":\"70a3c2f0-d4b5-4d6d-9deb-91632e3e5bdf\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "f54632b1-2d34-4dde-bb0d-915ddd3e024f",
+      "EventName": "DescribeAutoScalingGroups",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZYVYAIEAJ",
+      "EventTime": "2026-07-18 16:54:04+00:00",
+      "EventSource": "autoscaling.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZYVYAIEAJ\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:54:04Z\",\"eventSource\":\"autoscaling.amazonaws.com\",\"eventName\":\"DescribeAutoScalingGroups\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"13.50.15.138\",\"userAgent\":\"APN/1.0 HashiCorp/1.0 Terraform/1.9.8 (+https://www.terraform.io) terraform-provider-aws/5.100.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/linux lang/go#1.23.10 md/GOOS#linux md/GOARCH#amd64 exec-env/CloudShell api/autoscaling#1.53.1 m/C,z\",\"requestParameters\":{\"autoScalingGroupNames\":[\"zero-trust-lab-asg\"]},\"responseElements\":null,\"requestID\":\"63508d3c-a1c8-4ef6-b5a4-fc623112a55e\",\"eventID\":\"f54632b1-2d34-4dde-bb0d-915ddd3e024f\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"autoscaling.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "77ee8905-0ea8-4331-9ab5-1d814133ce47",
+      "EventName": "PutCredentials",
+      "ReadOnly": "false",
+      "AccessKeyId": "ASIA2L36SXNZVJTRFZXE",
+      "EventTime": "2026-07-18 16:53:55+00:00",
+      "EventSource": "cloudshell.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZVJTRFZXE\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:53:55Z\",\"eventSource\":\"cloudshell.amazonaws.com\",\"eventName\":\"PutCredentials\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"196.70.201.116\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\"requestParameters\":{\"EnvironmentId\":\"97b07620-294c-4ef5-a5c7-9797b7c0b727\",\"RefreshToken\":\"***\",\"KeyBase\":\"***\"},\"responseElements\":null,\"requestID\":\"95fe079c-13cb-425c-9012-2e3c7afca9b4\",\"eventID\":\"77ee8905-0ea8-4331-9ab5-1d814133ce47\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "781ec172-e6c6-49e9-a323-17bb80b8b376",
+      "EventName": "GetEnvironmentStatus",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZVJTRFZXE",
+      "EventTime": "2026-07-18 16:53:54+00:00",
+      "EventSource": "cloudshell.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZVJTRFZXE\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:53:54Z\",\"eventSource\":\"cloudshell.amazonaws.com\",\"eventName\":\"GetEnvironmentStatus\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"196.70.201.116\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\"requestParameters\":{\"EnvironmentId\":\"97b07620-294c-4ef5-a5c7-9797b7c0b727\"},\"responseElements\":null,\"requestID\":\"e7d1ec0b-2f4c-45cd-a17a-be8212116292\",\"eventID\":\"781ec172-e6c6-49e9-a323-17bb80b8b376\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"sessionCredentialFromConsole\":\"true\"}"
+    },
+    {
+      "EventId": "c029a839-eb44-4cc3-a9d5-d0ad79abd347",
+      "EventName": "GetCallerIdentity",
+      "ReadOnly": "true",
+      "AccessKeyId": "ASIA2L36SXNZ55TMCZLM",
+      "EventTime": "2026-07-18 16:53:54+00:00",
+      "EventSource": "sts.amazonaws.com",
+      "Username": "terraform-admin",
+      "Resources": [],
+      "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA2L36SXNZUU22LEMY2\",\"arn\":\"arn:aws:iam::712693169011:user/terraform-admin\",\"accountId\":\"712693169011\",\"accessKeyId\":\"ASIA2L36SXNZ55TMCZLM\",\"userName\":\"terraform-admin\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-07-18T15:43:26Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-07-18T16:53:54Z\",\"eventSource\":\"sts.amazonaws.com\",\"eventName\":\"GetCallerIdentity\",\"awsRegion\":\"eu-north-1\",\"sourceIPAddress\":\"51.20.127.166\",\"userAgent\":\"aws-sdk-go/1.55.8 (go1.26.4; linux; amd64)\",\"requestParameters\":null,\"responseElements\":null,\"additionalEventData\":{\"ExtendedRequestId\":\"MTpldS1ub3J0aC0xOlM6MTc4NDM5MzYzNDg4MjpSOmUxZmlpZVpi\",\"RequestDetails\":{\"awsServingRegion\":\"eu-north-1\",\"endpointType\":\"regional\"}},\"requestID\":\"6f9c05e6-ffb5-438b-ae51-54fbae280915\",\"eventID\":\"c029a839-eb44-4cc3-a9d5-d0ad79abd347\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"712693169011\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"sts.eu-north-1.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+    }
+  ],
+  "NextToken": "Mi/1IdDaXLgMfLmsx1NZ05o2DiilpaCQzH0QOTx5rZMnU8XK17QeTMBFndVJk5KX",
+  "ResponseMetadata": {
+    "RequestId": "b1e8e2f7-4eb5-4889-b452-47a2e29c1e47",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "b1e8e2f7-4eb5-4889-b452-47a2e29c1e47",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "100305",
+      "date": "Sat, 18 Jul 2026 17:09:29 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}

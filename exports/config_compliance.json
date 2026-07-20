@@ -1,0 +1,26 @@
+{
+  "ComplianceByConfigRules": [
+    {
+      "ConfigRuleName": "restricted-ssh",
+      "Compliance": {
+        "ComplianceType": "NON_COMPLIANT",
+        "ComplianceContributorCount": {
+          "CappedCount": 1,
+          "CapExceeded": false
+        }
+      }
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "cd576f4e-52a5-4218-b6a0-56cd6663f846",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "cd576f4e-52a5-4218-b6a0-56cd6663f846",
+      "strict-transport-security": "max-age=86400",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "180",
+      "date": "Sat, 18 Jul 2026 17:09:28 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}

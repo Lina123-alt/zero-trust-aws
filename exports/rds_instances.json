@@ -1,0 +1,130 @@
+{
+  "DBInstances": [
+    {
+      "DBInstanceIdentifier": "zero-trust-lab-db",
+      "DBInstanceClass": "db.t3.micro",
+      "Engine": "postgres",
+      "DBInstanceStatus": "available",
+      "MasterUsername": "dbadmin",
+      "DBName": "zerotrustdb",
+      "Endpoint": {
+        "Address": "zero-trust-lab-db.c1mgackemrw5.eu-north-1.rds.amazonaws.com",
+        "Port": 5432,
+        "HostedZoneId": "Z3MPDEQW7KHUGY"
+      },
+      "AllocatedStorage": 20,
+      "InstanceCreateTime": "2026-07-17 14:19:58.894000+00:00",
+      "PreferredBackupWindow": "05:38-06:08",
+      "BackupRetentionPeriod": 0,
+      "DBSecurityGroups": [],
+      "VpcSecurityGroups": [
+        {
+          "VpcSecurityGroupId": "sg-002767c7b3448d37b",
+          "Status": "active"
+        }
+      ],
+      "DBParameterGroups": [
+        {
+          "DBParameterGroupName": "default.postgres15",
+          "ParameterApplyStatus": "in-sync"
+        }
+      ],
+      "AvailabilityZone": "eu-north-1b",
+      "DBSubnetGroup": {
+        "DBSubnetGroupName": "zero-trust-lab-db-subnet-group",
+        "DBSubnetGroupDescription": "Managed by Terraform",
+        "VpcId": "vpc-06eb14f69222326e7",
+        "SubnetGroupStatus": "Complete",
+        "Subnets": [
+          {
+            "SubnetIdentifier": "subnet-04c4c49d6daed40c3",
+            "SubnetAvailabilityZone": {
+              "Name": "eu-north-1b"
+            },
+            "SubnetOutpost": {},
+            "SubnetStatus": "Active"
+          },
+          {
+            "SubnetIdentifier": "subnet-04d478d7f5cfa93af",
+            "SubnetAvailabilityZone": {
+              "Name": "eu-north-1a"
+            },
+            "SubnetOutpost": {},
+            "SubnetStatus": "Active"
+          }
+        ]
+      },
+      "PreferredMaintenanceWindow": "thu:03:20-thu:03:50",
+      "UpgradeRolloutOrder": "second",
+      "PendingModifiedValues": {},
+      "MultiAZ": false,
+      "EngineVersion": "15.17",
+      "AutoMinorVersionUpgrade": true,
+      "ReadReplicaDBInstanceIdentifiers": [],
+      "LicenseModel": "postgresql-license",
+      "StorageThroughput": 0,
+      "OptionGroupMemberships": [
+        {
+          "OptionGroupName": "default:postgres-15",
+          "Status": "in-sync"
+        }
+      ],
+      "PubliclyAccessible": false,
+      "StorageType": "gp2",
+      "DbInstancePort": 0,
+      "StorageEncrypted": false,
+      "DbiResourceId": "db-WYQYSW4GDYEWK3X4ET7EU5GLTM",
+      "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+      "DomainMemberships": [],
+      "CopyTagsToSnapshot": false,
+      "MonitoringInterval": 0,
+      "DBInstanceArn": "arn:aws:rds:eu-north-1:712693169011:db:zero-trust-lab-db",
+      "IAMDatabaseAuthenticationEnabled": false,
+      "DatabaseInsightsMode": "standard",
+      "PerformanceInsightsEnabled": false,
+      "DeletionProtection": false,
+      "AssociatedRoles": [],
+      "TagList": [
+        {
+          "Key": "Project",
+          "Value": "ZeroTrust-AWS"
+        },
+        {
+          "Key": "Environment",
+          "Value": "lab"
+        },
+        {
+          "Key": "Owner",
+          "Value": "terraform-admin"
+        },
+        {
+          "Key": "Name",
+          "Value": "zero-trust-lab-db"
+        }
+      ],
+      "CustomerOwnedIpEnabled": false,
+      "NetworkType": "IPV4",
+      "ActivityStreamStatus": "stopped",
+      "BackupTarget": "region",
+      "CertificateDetails": {
+        "CAIdentifier": "rds-ca-rsa2048-g1",
+        "ValidTill": "2027-07-17 14:18:41+00:00"
+      },
+      "DedicatedLogVolume": false,
+      "IsStorageConfigUpgradeAvailable": false,
+      "EngineLifecycleSupport": "open-source-rds-extended-support"
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "003d7d2c-7e11-4879-ae2c-89f77ec10e57",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "003d7d2c-7e11-4879-ae2c-89f77ec10e57",
+      "strict-transport-security": "max-age=31536000",
+      "content-type": "text/xml",
+      "content-length": "5439",
+      "date": "Sat, 18 Jul 2026 17:09:28 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}

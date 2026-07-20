@@ -1,0 +1,31 @@
+{
+  "ConfigRules": [
+    {
+      "ConfigRuleName": "restricted-ssh",
+      "ConfigRuleArn": "arn:aws:config:eu-north-1:712693169011:config-rule/config-rule-hjachc",
+      "ConfigRuleId": "config-rule-hjachc",
+      "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "INCOMING_SSH_DISABLED"
+      },
+      "ConfigRuleState": "ACTIVE",
+      "EvaluationModes": [
+        {
+          "Mode": "DETECTIVE"
+        }
+      ]
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "a952935e-cf0e-4b5f-a8d7-3f8442a394e6",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "a952935e-cf0e-4b5f-a8d7-3f8442a394e6",
+      "strict-transport-security": "max-age=86400",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "351",
+      "date": "Sat, 18 Jul 2026 17:09:28 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}

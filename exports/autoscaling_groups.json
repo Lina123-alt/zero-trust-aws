@@ -1,0 +1,84 @@
+{
+  "AutoScalingGroups": [
+    {
+      "AutoScalingGroupName": "zero-trust-lab-asg",
+      "AutoScalingGroupARN": "arn:aws:autoscaling:eu-north-1:712693169011:autoScalingGroup:3b518f4b-13cb-4665-bacd-1a3263dfad53:autoScalingGroupName/zero-trust-lab-asg",
+      "LaunchTemplate": {
+        "LaunchTemplateId": "lt-024b9c9b5dcf55e96",
+        "LaunchTemplateName": "zero-trust-lab-lt-20260718165152033800000001",
+        "Version": "$Latest"
+      },
+      "MinSize": 1,
+      "MaxSize": 2,
+      "DesiredCapacity": 1,
+      "DefaultCooldown": 300,
+      "AvailabilityZones": [
+        "eu-north-1a"
+      ],
+      "AvailabilityZoneIds": [
+        "eun1-az1"
+      ],
+      "LoadBalancerNames": [],
+      "TargetGroupARNs": [],
+      "HealthCheckType": "EC2",
+      "HealthCheckGracePeriod": 300,
+      "Instances": [
+        {
+          "InstanceId": "i-0c9ffd8dbbd998a94",
+          "InstanceType": "t3.micro",
+          "AvailabilityZone": "eu-north-1a",
+          "AvailabilityZoneId": "eun1-az1",
+          "LifecycleState": "InService",
+          "HealthStatus": "Healthy",
+          "LaunchTemplate": {
+            "LaunchTemplateId": "lt-024b9c9b5dcf55e96",
+            "LaunchTemplateName": "zero-trust-lab-lt-20260718165152033800000001",
+            "Version": "1"
+          },
+          "ProtectedFromScaleIn": false
+        }
+      ],
+      "CreatedTime": "2026-07-18 16:51:58.883000+00:00",
+      "SuspendedProcesses": [],
+      "VPCZoneIdentifier": "subnet-04d478d7f5cfa93af",
+      "EnabledMetrics": [],
+      "Tags": [
+        {
+          "ResourceId": "zero-trust-lab-asg",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Name",
+          "Value": "zero-trust-lab-asg-instance",
+          "PropagateAtLaunch": true
+        }
+      ],
+      "TerminationPolicies": [
+        "Default"
+      ],
+      "NewInstancesProtectedFromScaleIn": false,
+      "ServiceLinkedRoleARN": "arn:aws:iam::712693169011:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+      "TrafficSources": [],
+      "AvailabilityZoneDistribution": {
+        "CapacityDistributionStrategy": "balanced-best-effort"
+      },
+      "CapacityReservationSpecification": {
+        "CapacityReservationPreference": "default"
+      },
+      "InstanceLifecyclePolicy": {
+        "RetentionTriggers": {
+          "TerminateHookAbandon": "terminate"
+        }
+      }
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "95119eda-2ecc-4d2b-9f3a-4f3ecef32530",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "95119eda-2ecc-4d2b-9f3a-4f3ecef32530",
+      "content-type": "text/xml",
+      "content-length": "3563",
+      "date": "Sat, 18 Jul 2026 17:09:28 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}
