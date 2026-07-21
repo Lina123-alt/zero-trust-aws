@@ -143,6 +143,11 @@ data "aws_ami" "amazon_linux" {
   }
 }
 
+# On fige l'AMI utilisee pour eviter les recreations automatiques
+locals {
+  fixed_ami_id = "ami-09ff6856266bdd4bd"
+}
+
 resource "aws_key_pair" "deployer" {
   key_name   = "${var.project_name}-key"
   public_key = tls_private_key.deployer.public_key_openssh
@@ -154,7 +159,7 @@ resource "tls_private_key" "deployer" {
 }
 
 resource "aws_instance" "public" {
-  ami                    = data.aws_ami.amazon_linux.id
+  ami                    = local.fixed_ami_id
   instance_type          = "t3.micro"
   subnet_id              = aws_subnet.public.id
   vpc_security_group_ids = [aws_security_group.public.id]
@@ -166,7 +171,7 @@ resource "aws_instance" "public" {
 }
 
 resource "aws_instance" "private" {
-  ami                    = data.aws_ami.amazon_linux.id
+  ami                    = local.fixed_ami_id
   instance_type          = "t3.micro"
   subnet_id              = aws_subnet.private.id
   vpc_security_group_ids = [aws_security_group.private.id]
@@ -296,7 +301,7 @@ resource "aws_s3_bucket_public_access_block" "reports" {
 
 resource "aws_launch_template" "app" {
   name_prefix   = "${var.project_name}-lt-"
-  image_id      = data.aws_ami.amazon_linux.id
+  image_id      = local.fixed_ami_id
   instance_type = "t3.micro"
   key_name      = aws_key_pair.deployer.key_name
 
