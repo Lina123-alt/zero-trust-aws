@@ -56,6 +56,12 @@ resource "aws_iam_policy" "terraform_deploy_policy" {
         Resource = "*"
       },
       {
+        Sid    = "CloudShellAccess"
+        Effect = "Allow"
+        Action = "cloudshell:*"
+        Resource = "*"
+      },
+      {
         Sid    = "IAMScoped"
         Effect = "Allow"
         Action = [
